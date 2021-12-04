@@ -2,11 +2,20 @@
 <html>
 <head>
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 1rem;
+
+.img_stl {
+  background-image: url("shegoestech-cleaned-c.jpg");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.text-center {
+  text-align: center;
+}
+  
 .button::-moz-focus-inner{
   border: 0;
   padding: 0;
@@ -79,23 +88,21 @@ body, html {
 .button.small{
   padding: 4px 12px;
 }
-  .bg {
-  /* The image used */
-  background-image: url("shegoestech-cleaned-c.jpg");
-
-  /* Full height */
-  height: 90%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ 
 </style>
 </head>
 <body>
-  <table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;border:1px solid">
-    <tr><td><div class="bg"></div></td></tr>
-    <tr><td><div class="centered"><button class="small button"><a href="mailto:shegoestech@gmail.com?subject=I like it">Send Email</a></button></td></tr>
-</body>
+<table border="1">
+  <tr>
+    <th>
+      <span>
+        <div class="img_stl"></div>
+    </span>
+    </th>
+  </tr>
+  <tr>
+    <td class="text-center"><div class="centered"><button class="small button"><a href="mailto:shegoestech@gmail.com?subject=I like it">Send Email</a></button></td>
+  </tr>
+</table>    
+ </body>
 </html>
