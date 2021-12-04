@@ -1,48 +1,31 @@
-<!doctype html>
 <html>
 <head>
-    <title>She in Tech</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-    <style>
-        body {
-           margin:2px;
-           padding:0;
-        }
-        .sgt {
-                width:auto;
-                text-align:center;
-                padding:20px;
-        }
-        
-        img {
-            height: auto;
-            max-width: 100%;
-            }
-        .myImage {
-            font:14px Verdana;
-            background:url('rsz_2shegoestech-cleaned-c.jpg');           
-            position:relative;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        span {
-            display:block;
-            position:absolute;
-            bottom:0;
-            left:0;
-            right:0;
-            background:#000;
-            background:rgba(0, 0, 0, 0.6);
-            color:#FFF;
-            padding:20px 5px;
-        }
-    </style>
+.bg {
+  /* The image used */
+  background-image: url("rsz_2shegoestech-cleaned-c.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </head>
 <body>
- <div class = "gfg">
-  <p id="my-image"><img src="rsz_2shegoestech-cleaned-c.jpg"></p>
-  <span>My email: <a href="mailto:shegoestech@gmail.com?subject=I like it" style="color:#FD9C00;text-decoration:none;”>shegoestech@gmail.com</a></span>
- </div>   
+
+<div class="bg"></div>
+
+<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
 </body>
 </html>
