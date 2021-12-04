@@ -8,6 +8,7 @@
           left: -50%; 
           width: 200%; 
           height: 200%;
+          display:inline-block;
  }
  #bg img {
           position: absolute; 
@@ -19,11 +20,32 @@
           min-width: 50%;
           min-height: 50%;
  }
+          
+#bg a{
+          position:relative;
+          bottom:0em;
+          right:-2em;
+          background-color:#8F0005;
+          color:white;
+          font-size:1em;
+          padding:1em 1.5em;
+          text-transform:uppercase;
+          border-color:white;
+          border-radius:1.5em;
+}
+         
+#bg a:hover{
+background-color:red;
+cursor:pointer;
+color:white;
+}
+          
 </style>
 </head>
 <body>
  <div id="bg">
   <img src="rsz_2shegoestech-cleaned-c.jpg" alt="shegoestech@gmail.com">
+  <a href="mailto:shegoestech@gmail.com?subject=I like it">
 </div>
 </body>
 </html>
